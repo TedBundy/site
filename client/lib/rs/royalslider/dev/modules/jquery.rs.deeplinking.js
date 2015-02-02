@@ -149,8 +149,7 @@
   function get_fragment( url ) {
     url = url || location.href;
     return '#' + url.replace( /^[^#]*#?(.*)$/, '$1' );
-  };
- 
+  }
   $.fn[ str_hashchange ] = function( fn ) {
     return fn ? this.bind( str_hashchange, fn ) : this.trigger( str_hashchange );
   };
@@ -224,8 +223,7 @@
       }
       
       timeout_id = setTimeout( poll, $.fn[ str_hashchange ].delay );
-    };
-    
+    }
     window.attachEvent && !window.addEventListener && !supports_onhashchange && (function(){
       // Not only do IE6/7 need the "magical" Iframe treatment, but so does IE8
       // when running in "IE7 compatibility" mode.

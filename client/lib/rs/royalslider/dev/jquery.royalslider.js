@@ -868,7 +868,7 @@
 					currSlideObject.iH = img.height;
 					if(currSlideObject.iW && currSlideObject.iH) {
 						imageLoadingComplete();
-						return;
+
 					} else {
 						// if no size, try again
 						var loader = new Image();
@@ -977,7 +977,7 @@
 
 			if(currSlideObject.isLoaded) {
 				appendContent();
-				return;
+
 			} else {
 				if(beforeTransition) {
 					waitForTransition();

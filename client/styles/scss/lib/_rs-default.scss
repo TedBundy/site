@@ -64,14 +64,14 @@
 
   position: absolute;
   cursor: pointer;
-  background: url('../../images/rs-default.png');
+  background: url('../../images/rs-default1.png');
 
-  background-color: #eb5055;
+  background-color: transparent;
 
   border-radius: 2px;
 }
 .rsDefault .rsArrowIcn:hover {
-  background-color: #eb5055;
+background-color: #f8acff
 }
 
 .rsDefault.rsHor .rsArrowLeft .rsArrowIcn { background-position: -64px -32px; }
@@ -80,7 +80,6 @@
 .rsDefault.rsVer .rsArrowLeft .rsArrowIcn { background-position: -96px -32px; }
 .rsDefault.rsVer .rsArrowRight .rsArrowIcn { background-position: -96px -64px; }
 
-.rsDefault .rsArrowDisabled .rsArrowIcn { opacity: .2; filter: alpha(opacity=20);  *display: none; }
 
 
 /***************
@@ -122,7 +121,7 @@
   background: rgba(255,255,255,0.5);
 }
 .rsDefault .rsBullet.rsNavSelected span {
-  background-color: #eb5055;
+  background-color: #ca4549;
 }
 
 
@@ -477,3 +476,4 @@
   font-size: 12px;
   border-radius: 2px;
 }
+

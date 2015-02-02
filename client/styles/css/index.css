@@ -69,25 +69,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* Core RS CSS file. 95% of time you shouldn't change anything here. */
 /* line 3, ../scss/lib/_rs.scss */
 .royalSlider {
-  width: 600px;
-  height: 400px;
+  width: 1020px;
+  height: 600px;
   position: relative;
   direction: ltr;
-  border-top: 5px solid #373b4a;
-  border-bottom: 5px solid #ea676b;
 }
 
-/* line 14, ../scss/lib/_rs.scss */
+/* line 10, ../scss/lib/_rs.scss */
 .royalSlider > * {
   float: left;
 }
 
-/* line 18, ../scss/lib/_rs.scss */
+/* line 14, ../scss/lib/_rs.scss */
 .rsWebkit3d .rsSlide {
   -webkit-transform: translateZ(0);
 }
 
-/* line 32, ../scss/lib/_rs.scss */
+/* line 28, ../scss/lib/_rs.scss */
 .rsWebkit3d .rsSlide,
 .rsWebkit3d .rsContainer,
 .rsWebkit3d .rsThumbs,
@@ -101,14 +99,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -webkit-backface-visibility: hidden;
 }
 
-/* line 37, ../scss/lib/_rs.scss */
+/* line 33, ../scss/lib/_rs.scss */
 .rsFade.rsWebkit3d .rsSlide,
 .rsFade.rsWebkit3d img,
 .rsFade.rsWebkit3d .rsContainer {
   -webkit-transform: none;
 }
 
-/* line 40, ../scss/lib/_rs.scss */
+/* line 36, ../scss/lib/_rs.scss */
 .rsOverflow {
   width: 100%;
   height: 100%;
@@ -118,7 +116,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 48, ../scss/lib/_rs.scss */
+/* line 44, ../scss/lib/_rs.scss */
 .rsVisibleNearbyWrap {
   width: 100%;
   height: 100%;
@@ -129,14 +127,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 57, ../scss/lib/_rs.scss */
+/* line 53, ../scss/lib/_rs.scss */
 .rsVisibleNearbyWrap .rsOverflow {
   position: absolute;
   left: 0;
   top: 0;
 }
 
-/* line 63, ../scss/lib/_rs.scss */
+/* line 59, ../scss/lib/_rs.scss */
 .rsContainer {
   position: relative;
   width: 100%;
@@ -144,19 +142,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 71, ../scss/lib/_rs.scss */
+/* line 67, ../scss/lib/_rs.scss */
 .rsArrow,
 .rsThumbsArrow {
   cursor: pointer;
 }
 
-/* line 75, ../scss/lib/_rs.scss */
+/* line 71, ../scss/lib/_rs.scss */
 .rsThumb {
   float: left;
   position: relative;
 }
 
-/* line 83, ../scss/lib/_rs.scss */
+/* line 79, ../scss/lib/_rs.scss */
 .rsArrow,
 .rsNav,
 .rsThumbsArrow {
@@ -167,17 +165,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   transition: opacity 0.3s linear;
 }
 
-/* line 90, ../scss/lib/_rs.scss */
-.rsHidden {
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: visibility 0s linear 0.3s,opacity 0.3s linear;
-  -moz-transition: visibility 0s linear 0.3s,opacity 0.3s linear;
-  -o-transition: visibility 0s linear 0.3s,opacity 0.3s linear;
-  transition: visibility 0s linear 0.3s,opacity 0.3s linear;
-}
-
-/* line 100, ../scss/lib/_rs.scss */
+/* line 88, ../scss/lib/_rs.scss */
 .rsGCaption {
   width: 100%;
   float: left;
@@ -185,7 +173,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* Fullscreen options, very important ^^ */
-/* line 107, ../scss/lib/_rs.scss */
+/* line 95, ../scss/lib/_rs.scss */
 .royalSlider.rsFullscreen {
   position: fixed !important;
   height: auto !important;
@@ -199,7 +187,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   right: 0 !important;
 }
 
-/* line 120, ../scss/lib/_rs.scss */
+/* line 108, ../scss/lib/_rs.scss */
 .royalSlider .rsSlide.rsFakePreloader {
   opacity: 1 !important;
   -webkit-transition: 0s;
@@ -209,7 +197,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: none;
 }
 
-/* line 129, ../scss/lib/_rs.scss */
+/* line 117, ../scss/lib/_rs.scss */
 .rsSlide {
   position: absolute;
   left: 0;
@@ -220,38 +208,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 100%;
 }
 
-/* line 141, ../scss/lib/_rs.scss */
+/* line 129, ../scss/lib/_rs.scss */
 .royalSlider.rsAutoHeight,
 .rsAutoHeight .rsSlide {
   height: auto;
 }
 
-/* line 145, ../scss/lib/_rs.scss */
+/* line 133, ../scss/lib/_rs.scss */
 .rsContent {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-/* line 151, ../scss/lib/_rs.scss */
+/* line 139, ../scss/lib/_rs.scss */
 .rsPreloader {
   position: absolute;
   z-index: 0;
 }
 
-/* line 156, ../scss/lib/_rs.scss */
+/* line 144, ../scss/lib/_rs.scss */
 .rsNav {
   -moz-user-select: -moz-none;
   -webkit-user-select: none;
   user-select: none;
 }
 
-/* line 161, ../scss/lib/_rs.scss */
+/* line 149, ../scss/lib/_rs.scss */
 .rsNavItem {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.25);
 }
 
-/* line 165, ../scss/lib/_rs.scss */
+/* line 153, ../scss/lib/_rs.scss */
 .rsThumbs {
   cursor: pointer;
   position: relative;
@@ -260,20 +248,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   z-index: 22;
 }
 
-/* line 172, ../scss/lib/_rs.scss */
+/* line 160, ../scss/lib/_rs.scss */
 .rsTabs {
   float: left;
   background: none !important;
 }
 
-/* line 177, ../scss/lib/_rs.scss */
+/* line 165, ../scss/lib/_rs.scss */
 .rsTabs,
 .rsThumbs {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* line 183, ../scss/lib/_rs.scss */
+/* line 171, ../scss/lib/_rs.scss */
 .rsVideoContainer {
   /*left: 0;
   top: 0;
@@ -290,7 +278,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: relative;
 }
 
-/* line 198, ../scss/lib/_rs.scss */
+/* line 186, ../scss/lib/_rs.scss */
 .rsVideoFrameHolder {
   position: absolute;
   left: 0;
@@ -300,12 +288,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -webkit-transition: .3s;
 }
 
-/* line 206, ../scss/lib/_rs.scss */
+/* line 194, ../scss/lib/_rs.scss */
 .rsVideoFrameHolder.rsVideoActive {
   opacity: 1;
 }
 
-/* line 212, ../scss/lib/_rs.scss */
+/* line 200, ../scss/lib/_rs.scss */
 .rsVideoContainer iframe,
 .rsVideoContainer video,
 .rsVideoContainer embed,
@@ -319,7 +307,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* ios controls over video bug, shifting video */
-/* line 223, ../scss/lib/_rs.scss */
+/* line 211, ../scss/lib/_rs.scss */
 .rsVideoContainer.rsIOSVideo iframe,
 .rsVideoContainer.rsIOSVideo video,
 .rsVideoContainer.rsIOSVideo embed {
@@ -329,7 +317,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding-right: 44px;
 }
 
-/* line 230, ../scss/lib/_rs.scss */
+/* line 218, ../scss/lib/_rs.scss */
 .rsABlock {
   left: 0;
   top: 0;
@@ -337,27 +325,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   z-index: 15;
 }
 
-/* line 238, ../scss/lib/_rs.scss */
+/* line 226, ../scss/lib/_rs.scss */
 img.rsImg {
   max-width: none;
 }
 
-/* line 242, ../scss/lib/_rs.scss */
+/* line 230, ../scss/lib/_rs.scss */
 .grab-cursor {
   cursor: url(../../images/grab.png) 8 8, move;
 }
 
-/* line 246, ../scss/lib/_rs.scss */
+/* line 234, ../scss/lib/_rs.scss */
 .grabbing-cursor {
   cursor: url(../../images/grabbing.png) 8 8, move;
 }
 
-/* line 250, ../scss/lib/_rs.scss */
+/* line 238, ../scss/lib/_rs.scss */
 .rsNoDrag {
   cursor: auto;
 }
 
-/* line 254, ../scss/lib/_rs.scss */
+/* line 242, ../scss/lib/_rs.scss */
 .rsLink {
   left: 0;
   top: 0;
@@ -367,107 +355,6 @@ img.rsImg {
   display: block;
   z-index: 20;
   background: url(../../images/blank.gif);
-}
-
-/* line 6, ../scss/_base.scss */
-.clearfix::after {
-  display: table;
-  clear: both;
-  content: '';
-}
-
-/* line 1, ../scss/widgets/_header.scss */
-header {
-  width: 100%;
-  background: #303441;
-}
-/* line 5, ../scss/widgets/_header.scss */
-header nav {
-  margin: 0 auto;
-  width: 95%;
-  height: 89px;
-}
-/* line 9, ../scss/widgets/_header.scss */
-header nav > a {
-  line-height: 93px;
-  font-family: 'Lato', sans-serif;
-  font-size: 25px;
-  font-weight: 700;
-}
-/* line 15, ../scss/widgets/_header.scss */
-header nav ul {
-  float: right;
-  font-family: 'Lato', sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-}
-/* line 20, ../scss/widgets/_header.scss */
-header nav ul li {
-  display: inline-block;
-  line-height: 89px;
-}
-/* line 25, ../scss/widgets/_header.scss */
-header nav a {
-  text-decoration: none;
-  color: white;
-}
-/* line 29, ../scss/widgets/_header.scss */
-header nav span {
-  color: #eb5055;
-}
-/* line 32, ../scss/widgets/_header.scss */
-header nav li:after {
-  content: '·';
-  margin: 0 14px;
-  color: #494e62;
-}
-/* line 33, ../scss/widgets/_header.scss */
-header nav li:last-child:after {
-  content: '';
-}
-
-/* line 1, ../scss/layuots/_figure.scss */
-.service {
-  background: #f2f2f2;
-  font-family: 'Lato', sans-serif;
-  padding: 3%;
-}
-/* line 6, ../scss/layuots/_figure.scss */
-.service h2 {
-  font-size: 30px;
-  color: #666d89;
-  font-weight: 700;
-  padding-bottom: 30px;
-}
-/* line 12, ../scss/layuots/_figure.scss */
-.service h3 {
-  font-size: 18px;
-  color: #666d89;
-  font-weight: 700;
-}
-/* line 17, ../scss/layuots/_figure.scss */
-.service p {
-  font-size: 12px;
-  color: #666d89;
-  font-weight: 400;
-  padding-top: 5%;
-}
-/* line 24, ../scss/layuots/_figure.scss */
-.service span {
-  font-size: 18px;
-  color: #666d89;
-  font-weight: 300;
-}
-/* line 29, ../scss/layuots/_figure.scss */
-.service li {
-  width: 33%;
-  height: 100%;
-  float: left;
-  padding-top: 30px;
-}
-/* line 35, ../scss/layuots/_figure.scss */
-.service img {
-  float: left;
 }
 
 /******************************
@@ -554,14 +441,14 @@ header nav li:last-child:after {
   margin-left: -16px;
   position: absolute;
   cursor: pointer;
-  background: url("../../images/rs-default.png");
-  background-color: #eb5055;
+  background: url("../../images/rs-default1.png");
+  background-color: transparent;
   border-radius: 2px;
 }
 
 /* line 73, ../scss/lib/_rs-default.scss */
 .rsDefault .rsArrowIcn:hover {
-  background-color: #eb5055;
+  background-color: #f8acff;
 }
 
 /* line 77, ../scss/lib/_rs-default.scss */
@@ -584,19 +471,12 @@ header nav li:last-child:after {
   background-position: -96px -64px;
 }
 
-/* line 83, ../scss/lib/_rs-default.scss */
-.rsDefault .rsArrowDisabled .rsArrowIcn {
-  opacity: .2;
-  filter: alpha(opacity=20);
-  *display: none;
-}
-
 /***************
 *
 *  2. Bullets
 *
 ****************/
-/* line 92, ../scss/lib/_rs-default.scss */
+/* line 91, ../scss/lib/_rs-default.scss */
 .rsDefault .rsBullets {
   position: absolute;
   z-index: 35;
@@ -612,7 +492,7 @@ header nav li:last-child:after {
   overflow: hidden;
 }
 
-/* line 108, ../scss/lib/_rs-default.scss */
+/* line 107, ../scss/lib/_rs-default.scss */
 .rsDefault .rsBullet {
   width: 8px;
   height: 8px;
@@ -622,7 +502,7 @@ header nav li:last-child:after {
   padding: 6px 5px 6px;
 }
 
-/* line 116, ../scss/lib/_rs-default.scss */
+/* line 115, ../scss/lib/_rs-default.scss */
 .rsDefault .rsBullet span {
   display: block;
   width: 8px;
@@ -632,9 +512,9 @@ header nav li:last-child:after {
   background: rgba(255, 255, 255, 0.5);
 }
 
-/* line 124, ../scss/lib/_rs-default.scss */
+/* line 123, ../scss/lib/_rs-default.scss */
 .rsDefault .rsBullet.rsNavSelected span {
-  background-color: #eb5055;
+  background-color: #ca4549;
 }
 
 /***************
@@ -642,13 +522,13 @@ header nav li:last-child:after {
 *  3. Thumbnails
 *
 ****************/
-/* line 138, ../scss/lib/_rs-default.scss */
+/* line 137, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumbsHor {
   width: 100%;
   height: 72px;
 }
 
-/* line 142, ../scss/lib/_rs-default.scss */
+/* line 141, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumbsVer {
   width: 96px;
   height: 100%;
@@ -657,19 +537,19 @@ header nav li:last-child:after {
   right: 0;
 }
 
-/* line 149, ../scss/lib/_rs-default.scss */
+/* line 148, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsContainer {
   position: relative;
   height: 100%;
 }
 
-/* line 153, ../scss/lib/_rs-default.scss */
+/* line 152, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsContainer {
   position: relative;
   width: 100%;
 }
 
-/* line 157, ../scss/lib/_rs-default.scss */
+/* line 156, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumb {
   float: left;
   overflow: hidden;
@@ -677,30 +557,30 @@ header nav li:last-child:after {
   height: 72px;
 }
 
-/* line 163, ../scss/lib/_rs-default.scss */
+/* line 162, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumb img {
   width: 100%;
   height: 100%;
 }
 
-/* line 167, ../scss/lib/_rs-default.scss */
+/* line 166, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumb.rsNavSelected {
   background: #02874a;
 }
 
-/* line 170, ../scss/lib/_rs-default.scss */
+/* line 169, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumb.rsNavSelected img {
   opacity: 0.3;
   filter: alpha(opacity=30);
 }
 
-/* line 174, ../scss/lib/_rs-default.scss */
+/* line 173, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTmb {
   display: block;
 }
 
 /* Thumbnails with text */
-/* line 179, ../scss/lib/_rs-default.scss */
+/* line 178, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTmb h5 {
   font-size: 16px;
   margin: 0;
@@ -709,7 +589,7 @@ header nav li:last-child:after {
   color: #FFF;
 }
 
-/* line 186, ../scss/lib/_rs-default.scss */
+/* line 185, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTmb span {
   color: #DDD;
   margin: 0;
@@ -719,7 +599,7 @@ header nav li:last-child:after {
 }
 
 /* Thumbnails arrow icons */
-/* line 197, ../scss/lib/_rs-default.scss */
+/* line 196, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumbsArrow {
   height: 100%;
   width: 20px;
@@ -731,42 +611,42 @@ header nav li:last-child:after {
   background: rgba(0, 0, 0, 0.75);
 }
 
-/* line 207, ../scss/lib/_rs-default.scss */
+/* line 206, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumbsArrow:hover {
   background: rgba(0, 0, 0, 0.9);
 }
 
-/* line 210, ../scss/lib/_rs-default.scss */
+/* line 209, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrow {
   width: 100%;
   height: 20px;
 }
 
-/* line 214, ../scss/lib/_rs-default.scss */
+/* line 213, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrowLeft {
   top: 0;
   left: 0;
 }
 
-/* line 215, ../scss/lib/_rs-default.scss */
+/* line 214, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrowRight {
   bottom: 0;
   left: 0;
 }
 
-/* line 217, ../scss/lib/_rs-default.scss */
+/* line 216, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsArrowLeft {
   left: 0;
   top: 0;
 }
 
-/* line 218, ../scss/lib/_rs-default.scss */
+/* line 217, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsArrowRight {
   right: 0;
   top: 0;
 }
 
-/* line 220, ../scss/lib/_rs-default.scss */
+/* line 219, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumbsArrowIcn {
   width: 16px;
   height: 16px;
@@ -779,45 +659,45 @@ header nav li:last-child:after {
   background: url("../../images/rs-default.png");
 }
 
-/* line 232, ../scss/lib/_rs-default.scss */
+/* line 231, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn {
   background-position: -128px -32px;
 }
 
-/* line 233, ../scss/lib/_rs-default.scss */
+/* line 232, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn {
   background-position: -128px -48px;
 }
 
-/* line 235, ../scss/lib/_rs-default.scss */
+/* line 234, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn {
   background-position: -144px -32px;
 }
 
-/* line 236, ../scss/lib/_rs-default.scss */
+/* line 235, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn {
   background-position: -144px -48px;
 }
 
-/* line 238, ../scss/lib/_rs-default.scss */
+/* line 237, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumbsArrowDisabled {
   display: none !important;
 }
 
 /* Thumbnails resizing on smaller screens */
 @media screen and (min-width: 0px) and (max-width: 800px) {
-  /* line 242, ../scss/lib/_rs-default.scss */
+  /* line 241, ../scss/lib/_rs-default.scss */
   .rsDefault .rsThumb {
     width: 59px;
     height: 44px;
   }
 
-  /* line 246, ../scss/lib/_rs-default.scss */
+  /* line 245, ../scss/lib/_rs-default.scss */
   .rsDefault .rsThumbsHor {
     height: 44px;
   }
 
-  /* line 249, ../scss/lib/_rs-default.scss */
+  /* line 248, ../scss/lib/_rs-default.scss */
   .rsDefault .rsThumbsVer {
     width: 59px;
   }
@@ -827,7 +707,7 @@ header nav li:last-child:after {
 *  4. Tabs
 *
 ****************/
-/* line 263, ../scss/lib/_rs-default.scss */
+/* line 262, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTabs {
   width: 100%;
   height: auto;
@@ -838,7 +718,7 @@ header nav li:last-child:after {
   position: relative;
 }
 
-/* line 270, ../scss/lib/_rs-default.scss */
+/* line 269, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTab {
   display: inline-block;
   cursor: pointer;
@@ -861,7 +741,7 @@ header nav li:last-child:after {
   *zoom: 1;
 }
 
-/* line 294, ../scss/lib/_rs-default.scss */
+/* line 293, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTab:first-child {
   -webkit-border-top-left-radius: 4px;
   border-top-left-radius: 4px;
@@ -869,7 +749,7 @@ header nav li:last-child:after {
   border-bottom-left-radius: 4px;
 }
 
-/* line 300, ../scss/lib/_rs-default.scss */
+/* line 299, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTab:last-child {
   -webkit-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
@@ -878,14 +758,14 @@ header nav li:last-child:after {
   border-right: 1px solid #cfcfcf;
 }
 
-/* line 308, ../scss/lib/_rs-default.scss */
+/* line 307, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTab:active {
   border: 1px solid #D9D9DD;
   background-color: #f4f4f4;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset;
 }
 
-/* line 313, ../scss/lib/_rs-default.scss */
+/* line 312, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTab.rsNavSelected {
   color: #FFF;
   border: 1px solid #999;
@@ -902,7 +782,7 @@ header nav li:last-child:after {
 *  5. Fullscreen button
 *
 ****************/
-/* line 334, ../scss/lib/_rs-default.scss */
+/* line 333, ../scss/lib/_rs-default.scss */
 .rsDefault .rsFullscreenBtn {
   right: 0;
   top: 0;
@@ -914,7 +794,7 @@ header nav li:last-child:after {
   cursor: pointer;
 }
 
-/* line 345, ../scss/lib/_rs-default.scss */
+/* line 344, ../scss/lib/_rs-default.scss */
 .rsDefault .rsFullscreenIcn {
   display: block;
   margin: 6px;
@@ -927,12 +807,12 @@ header nav li:last-child:after {
   border-radius: 2px;
 }
 
-/* line 358, ../scss/lib/_rs-default.scss */
+/* line 357, ../scss/lib/_rs-default.scss */
 .rsDefault .rsFullscreenIcn:hover {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 361, ../scss/lib/_rs-default.scss */
+/* line 360, ../scss/lib/_rs-default.scss */
 .rsDefault.rsFullscreen .rsFullscreenIcn {
   background-position: -32px 0;
 }
@@ -942,7 +822,7 @@ header nav li:last-child:after {
 *  6. Play/close video button
 *
 ****************/
-/* line 375, ../scss/lib/_rs-default.scss */
+/* line 374, ../scss/lib/_rs-default.scss */
 .rsDefault .rsPlayBtn {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
   width: 64px;
@@ -952,7 +832,7 @@ header nav li:last-child:after {
   cursor: pointer;
 }
 
-/* line 383, ../scss/lib/_rs-default.scss */
+/* line 382, ../scss/lib/_rs-default.scss */
 .rsDefault .rsPlayBtnIcon {
   width: 64px;
   display: block;
@@ -968,19 +848,19 @@ header nav li:last-child:after {
   *background-color: #000;
 }
 
-/* line 399, ../scss/lib/_rs-default.scss */
+/* line 398, ../scss/lib/_rs-default.scss */
 .rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 402, ../scss/lib/_rs-default.scss */
+/* line 401, ../scss/lib/_rs-default.scss */
 .rsDefault .rsBtnCenterer {
   position: absolute;
   left: 50%;
   top: 50%;
 }
 
-/* line 407, ../scss/lib/_rs-default.scss */
+/* line 406, ../scss/lib/_rs-default.scss */
 .rsDefault .rsCloseVideoBtn {
   right: 0;
   top: 0;
@@ -993,13 +873,13 @@ header nav li:last-child:after {
   -webkit-transform: translateZ(0);
 }
 
-/* line 419, ../scss/lib/_rs-default.scss */
+/* line 418, ../scss/lib/_rs-default.scss */
 .rsDefault .rsCloseVideoBtn.rsiOSBtn {
   top: -38px;
   right: -6px;
 }
 
-/* line 424, ../scss/lib/_rs-default.scss */
+/* line 423, ../scss/lib/_rs-default.scss */
 .rsDefault .rsCloseVideoIcn {
   margin: 6px;
   width: 32px;
@@ -1010,7 +890,7 @@ header nav li:last-child:after {
   *background-color: #000;
 }
 
-/* line 433, ../scss/lib/_rs-default.scss */
+/* line 432, ../scss/lib/_rs-default.scss */
 .rsDefault .rsCloseVideoIcn:hover {
   background-color: rgba(0, 0, 0, 0.9);
 }
@@ -1020,7 +900,7 @@ header nav li:last-child:after {
 *  7. Preloader
 *
 ****************/
-/* line 445, ../scss/lib/_rs-default.scss */
+/* line 444, ../scss/lib/_rs-default.scss */
 .rsDefault .rsPreloader {
   width: 20px;
   height: 20px;
@@ -1036,7 +916,7 @@ header nav li:last-child:after {
 *  8. Global caption
 *
 ****************/
-/* line 464, ../scss/lib/_rs-default.scss */
+/* line 463, ../scss/lib/_rs-default.scss */
 .rsDefault .rsGCaption {
   position: absolute;
   float: none;
@@ -1052,44 +932,508 @@ header nav li:last-child:after {
   border-radius: 2px;
 }
 
-/* line 1, ../scss/widgets/_royalSlider.scss */
-.royalSlider {
+/* line 6, ../scss/_base.scss */
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+/* line 14, ../scss/_base.scss */
+body {
+  margin: 0 auto;
+}
+
+/* line 2, ../scss/components/_service.scss */
+.service {
+  display: block;
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  background: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+}
+/* line 11, ../scss/components/_service.scss */
+.service h2 {
+  padding-bottom: 30px;
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #666d89;
+}
+/* line 19, ../scss/components/_service.scss */
+.service h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #666d89;
+}
+/* line 25, ../scss/components/_service.scss */
+.service p {
+  padding-top: 3%;
+  font-size: 12px;
+  color: #666d89;
+  font-weight: 400;
+  line-height: 20px;
+}
+/* line 33, ../scss/components/_service.scss */
+.service span {
+  font-size: 18px;
+  font-weight: 300;
+  color: #666d89;
+}
+/* line 39, ../scss/components/_service.scss */
+.service li {
+  float: left;
+  width: 33%;
+  height: 100%;
+  padding-top: 50px;
+}
+/* line 45, ../scss/components/_service.scss */
+.service img {
+  float: left;
+}
+
+/* line 51, ../scss/components/_service.scss */
+section.ourservice {
+  background-color: #f2f2f2;
+}
+
+/* line 1, ../scss/components/_social_btn.scss */
+.social_btn {
+  padding-top: 10px;
+}
+/* line 3, ../scss/components/_social_btn.scss */
+.social_btn li {
+  display: inline-block;
+  border: 1px solid  #666d89;
+  border-radius: 50px;
+}
+/* line 7, ../scss/components/_social_btn.scss */
+.social_btn li:hover {
+  border: 2px solid #666d89;
+  border-radius: 50px;
+  color: #8f9297;
+}
+
+/* line 1, ../scss/components/_input.scss */
+input {
+  width: 620px;
+  height: 38px;
+  margin: 5px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ca4549;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #e47376;
+}
+
+/* line 15, ../scss/components/_input.scss */
+textarea {
+  width: 620px;
+  height: 200px;
+  margin: 5px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ca4549;
+  font-size: 12px;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  color: #e47376;
+}
+
+/* line 1, ../scss/widgets/_header.scss */
+header {
+  width: 100%;
+  background: #303441;
+}
+/* line 5, ../scss/widgets/_header.scss */
+header nav {
+  width: 1020px;
+  height: 89px;
+  margin: 0 auto;
+}
+/* line 9, ../scss/widgets/_header.scss */
+header nav > a {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 93px;
+}
+/* line 16, ../scss/widgets/_header.scss */
+header nav ul {
+  float: right;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+/* line 21, ../scss/widgets/_header.scss */
+header nav ul li {
+  display: inline-block;
+  line-height: 89px;
+}
+/* line 27, ../scss/widgets/_header.scss */
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+/* line 31, ../scss/widgets/_header.scss */
+header nav a:hover {
+  color: #eb5055;
+}
+/* line 37, ../scss/widgets/_header.scss */
+header nav span {
+  color: #eb5055;
+}
+/* line 41, ../scss/widgets/_header.scss */
+header nav li:after {
+  content: '·';
+  margin: 0 10px;
+  color: #494e62;
+}
+/* line 47, ../scss/widgets/_header.scss */
+header nav li:last-child:after {
+  content: '';
+}
+
+/* line 1, ../scss/widgets/_footer.scss */
+footer {
+  width: 1020px;
+  height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #303441;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #666d89;
+}
+
+/* line 13, ../scss/widgets/_footer.scss */
+div.footer {
+  width: 270px;
+  height: 20px;
+  padding-top: 35px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+/* line 21, ../scss/widgets/_footer.scss */
+a {
+  text-decoration: none;
+  color: #666d89;
+}
+
+/* line 26, ../scss/widgets/_footer.scss */
+nav.footer {
+  float: right;
+  width: 150px;
+  margin-top: -35px;
+}
+
+/* line 34, ../scss/widgets/_footer.scss */
+ul.footer li {
+  display: inline-block;
+  border: 1px solid #666d89;
+  border-radius: 50px;
+}
+/* line 38, ../scss/widgets/_footer.scss */
+ul.footer li:hover {
+  color: #8f9297;
+  border: 2px solid #666d89;
+  border-radius: 50px;
+}
+
+/* line 46, ../scss/widgets/_footer.scss */
+section.footer {
+  background-color: #303441;
+}
+
+/* line 1, ../scss/layouts/_gallery.scss */
+.gallery {
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 35px 70px 35px;
+  background: #303441;
+  font-family: 'Lato', sans-serif;
+}
+/* line 9, ../scss/layouts/_gallery.scss */
+.gallery h2 {
+  padding-bottom: 35px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #666d89;
+}
+/* line 15, ../scss/layouts/_gallery.scss */
+.gallery p {
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #666d89;
+}
+/* line 23, ../scss/layouts/_gallery.scss */
+.gallery .menu li {
+  display: inline-block;
+  margin: 5px;
+}
+/* line 27, ../scss/layouts/_gallery.scss */
+.gallery .menu li a {
+  padding: 3px;
+  border: 1px solid #666d89;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #767e9e;
+  text-decoration: none;
+}
+/* line 36, ../scss/layouts/_gallery.scss */
+.gallery .menu li a:hover {
+  border: 1px solid white;
+  color: white;
+}
+/* line 45, ../scss/layouts/_gallery.scss */
+.gallery div {
+  padding: 7px;
+}
+/* line 48, ../scss/layouts/_gallery.scss */
+.gallery figure {
+  position: relative;
+  display: inline-block;
+  margin: 7px;
+}
+/* line 53, ../scss/layouts/_gallery.scss */
+.gallery figure:hover figcaption {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 58, ../scss/layouts/_gallery.scss */
+.gallery figure img {
   width: 100%;
 }
-/* line 3, ../scss/widgets/_royalSlider.scss */
+/* line 62, ../scss/layouts/_gallery.scss */
+.gallery figure figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(85, 85, 85, 0.5);
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 700ms;
+  -moz-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  transition-duration: 700ms;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 74, ../scss/layouts/_gallery.scss */
+.gallery figure p {
+  padding: 40px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #085b12;
+  text-align: center;
+}
+
+/* line 85, ../scss/layouts/_gallery.scss */
+section.portfolio {
+  background: #303441;
+}
+
+/* line 1, ../scss/layouts/_about.scss */
+.about {
+  width: 1020px;
+  height: 632px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+  background: #f2f2f2;
+  font-family: Lato, sans-serif;
+  color: #666d89;
+}
+/* line 13, ../scss/layouts/_about.scss */
+.about h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 700;
+}
+/* line 19, ../scss/layouts/_about.scss */
+.about p.aboutus {
+  font-size: 18px;
+  font-weight: 300;
+}
+/* line 23, ../scss/layouts/_about.scss */
+.about p {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+}
+/* line 28, ../scss/layouts/_about.scss */
+.about figure {
+  float: left;
+  width: 33%;
+  padding-top: 50px;
+}
+/* line 35, ../scss/layouts/_about.scss */
+.about h3 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* line 45, ../scss/layouts/_about.scss */
+section.abouto {
+  border-top: 5px solid #373b4a;
+  background: #f2f2f2;
+}
+
+/* line 1, ../scss/layouts/_form.scss */
+.form {
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  background-color: #eb5055;
+  font-family: Lato, sans-serif;
+}
+/* line 10, ../scss/layouts/_form.scss */
+.form h2 {
+  padding-bottom: 35px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #f0d8d9;
+}
+/* line 17, ../scss/layouts/_form.scss */
+.form h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f0d8d9;
+}
+/* line 22, ../scss/layouts/_form.scss */
+.form p {
+  padding-bottom: 40px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #f0d8d9;
+  line-height: 35px;
+}
+/* line 29, ../scss/layouts/_form.scss */
+.form p.formus {
+  padding: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #f0d8d9;
+  line-height: 25px;
+  text-align: justify;
+}
+/* line 39, ../scss/layouts/_form.scss */
+.form form {
+  float: left;
+  width: 630px;
+}
+/* line 43, ../scss/layouts/_form.scss */
+.form form a {
+  float: right;
+  padding: 5px;
+  border: 2px solid #e47376;
+  border-radius: 7px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #f0d8d9;
+  text-decoration: none;
+}
+/* line 53, ../scss/layouts/_form.scss */
+.form form a:hover {
+  border: 2px solid #f8acff;
+  border-radius: 7px;
+}
+/* line 59, ../scss/layouts/_form.scss */
+.form form div.form {
+  float: right;
+  width: 280px;
+  height: 320px;
+}
+
+/* line 68, ../scss/layouts/_form.scss */
+section.forms {
+  border-bottom: 5px solid #ea676b;
+  background-color: #eb5055;
+}
+
+/* line 73, ../scss/layouts/_form.scss */
+form {
+  padding-right: 50px;
+}
+
+/* line 80, ../scss/layouts/_form.scss */
+ul.contact_info li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #f0d8d9;
+  font-size: 12px;
+  float: left;
+}
+/* line 87, ../scss/layouts/_form.scss */
+ul.contact_info li a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #f0d8d9;
+  font-size: 12px;
+}
+/* line 95, ../scss/layouts/_form.scss */
+ul.contact_info li img {
+  float: inherit;
+  padding-right: 5px;
+}
+
+/* line 2, ../scss/layouts/_royalSlider.scss */
+.royalSlider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 7, ../scss/layouts/_royalSlider.scss */
 .royalSlider .rsOverflow.rsOverflow {
   width: 100% !important;
 }
-/* line 6, ../scss/widgets/_royalSlider.scss */
+/* line 10, ../scss/layouts/_royalSlider.scss */
 .royalSlider .rsNav.rsBullets {
   display: none;
 }
 
-/* line 1, ../scss/widgets/_gallery.scss */
-.gallery {
-  background: #303441;
-  font-family: 'Lato', sans-serif;
+/* line 16, ../scss/layouts/_royalSlider.scss */
+.slider {
+  border-top: 5px solid #373b4a;
+  border-bottom: 5px solid #ea676b;
+  background-color: #eb5055;
 }
-/* line 5, ../scss/widgets/_gallery.scss */
-.gallery h2 {
-  font-size: 30px;
-  color: #666d89;
-  font-weight: 700;
+
+/* line 2, ../scss/mixins/_placeborder.scss */
+.placeholder ::-webkit-input-placeholder {
+  color: #e47376;
 }
-/* line 10, ../scss/widgets/_gallery.scss */
-.gallery p {
-  font-size: 18px;
-  color: #666d89;
-  font-weight: 400;
+/* line 3, ../scss/mixins/_placeborder.scss */
+.placeholder ::-moz-placeholder {
+  color: #e47376;
 }
-/* line 15, ../scss/widgets/_gallery.scss */
-.gallery li {
-  display: block;
-  width: 25%;
-  height: 100%;
+/* line 4, ../scss/mixins/_placeborder.scss */
+.placeholder :-moz-placeholder {
+  color: #e47376;
 }
-/* line 20, ../scss/widgets/_gallery.scss */
-.gallery a {
-  text-decoration: none;
-  color: #666d89;
+/* line 5, ../scss/mixins/_placeborder.scss */
+.placeholder :-ms-input-placeholder {
+  color: #e47376;
 }

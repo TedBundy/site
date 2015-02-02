@@ -1,10 +1,21 @@
 @import "compass/reset";
 @import "compass/css3";
+
 @import "lib/rs";
+@import "lib/rs-default";
 
 @import "base";
+
+@import "components/service";
+@import "components/social_btn";
+@import "components/input";
+
 @import "widgets/header";
-@import "layuots/figure";
-@import "lib/rs-default";
-@import "widgets/royalSlider";
-@import "widgets/gallery";
+@import "widgets/footer";
+
+@import "layouts/gallery";
+@import "layouts/about";
+@import "layouts/form";
+@import "layouts/royalSlider";
+
+@import "mixins/placeborder";
