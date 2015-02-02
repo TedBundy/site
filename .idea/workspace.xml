@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce85faa3-defc-42ab-acbf-6ee5ee1dd0ff" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/client/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/images/1fb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/images/2ggl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/images/3twtr.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/images/4int.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/images/fb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/images/ggl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/images/iconpick3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/images/iconpink1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/images/iconpink2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/images/int.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/client/images/slide1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/images/twtr.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/client/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/client/styles/scss/components/_figure.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/styles/scss/layuots/_figure.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/styles/scss/widgets/_gallery.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/styles/scss/widgets/_royalSlider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/styles/scss/widgets/_section3.scss" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/.sass-cache/db30bdc1b141a67f032fd5a05e51885f3accd46b/_about.scssc" afterPath="$PROJECT_DIR$/client/styles/.sass-cache/db30bdc1b141a67f032fd5a05e51885f3accd46b/_about.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/.sass-cache/2d4d128670077766cc05c452fbb2bb152d5decb2/_base.scssc" afterPath="$PROJECT_DIR$/client/styles/.sass-cache/2d4d128670077766cc05c452fbb2bb152d5decb2/_base.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/.sass-cache/346c7cd38871ad0bd8d9bed4de5b6c1b68d8a82d/_footer.scssc" afterPath="$PROJECT_DIR$/client/styles/.sass-cache/346c7cd38871ad0bd8d9bed4de5b6c1b68d8a82d/_footer.scssc" />
@@ -43,12 +27,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/scss/lib/_rs-default.scss" afterPath="$PROJECT_DIR$/client/styles/scss/lib/_rs-default.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/scss/lib/_rs.scss" afterPath="$PROJECT_DIR$/client/styles/scss/lib/_rs.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/scss/components/_social_btn.scss" afterPath="$PROJECT_DIR$/client/styles/scss/components/_social_btn.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/config.rb" afterPath="$PROJECT_DIR$/client/styles/config.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/css/index.css" afterPath="$PROJECT_DIR$/client/styles/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles/scss/index.scss" afterPath="$PROJECT_DIR$/client/styles/scss/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/lib/rs/royalslider/dev/jquery.royalslider.js" afterPath="$PROJECT_DIR$/client/lib/rs/royalslider/dev/jquery.royalslider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/lib/rs/royalslider/dev/modules/jquery.rs.deeplinking.js" afterPath="$PROJECT_DIR$/client/lib/rs/royalslider/dev/modules/jquery.rs.deeplinking.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -182,8 +163,8 @@
           <file leaf-file-name="_service.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/styles/scss/components/_service.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.15929204" vertical-offset="0" max-vertical-offset="1044">
-                  <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+                <state vertical-scroll-proportion="0.53097343" vertical-offset="0" max-vertical-offset="1044">
+                  <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -224,7 +205,7 @@
     </splitter>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -523,7 +504,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
@@ -586,8 +567,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1600" height="852" extended-state="1" />
-    <editor active="false" />
+    <frame x="0" y="24" width="1600" height="852" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21015424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -995,18 +976,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/styles/scss/components/_service.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15929204" vertical-offset="0" max-vertical-offset="1044">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5954887" vertical-offset="0" max-vertical-offset="6750">
           <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/scss/components/_service.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53097343" vertical-offset="0" max-vertical-offset="1044">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding />
         </state>
       </provider>
