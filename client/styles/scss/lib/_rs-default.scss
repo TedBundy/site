@@ -65,13 +65,12 @@
   position: absolute;
   cursor: pointer;
   background: url('../../images/rs-default1.png');
-
-  background-color: transparent;
+  opacity: 0.3;
 
   border-radius: 2px;
 }
 .rsDefault .rsArrowIcn:hover {
-background-color: #f8acff
+  opacity: 1;
 }
 
 .rsDefault.rsHor .rsArrowLeft .rsArrowIcn { background-position: -64px -32px; }

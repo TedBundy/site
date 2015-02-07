@@ -1,6 +1,5 @@
 .form {
 
-  width: 1020px;
   margin-left: auto;
   margin-right: auto;
   padding: 50px;
@@ -49,10 +48,13 @@
       font-weight: 700;
       color: #f0d8d9;
       text-decoration: none;
+      @include transition-property(all);
+      @include transition-duration(700ms);
 
       &:hover {
         border: 2px solid #f8acff;
         border-radius: 7px;
+        @include opacity(0.7);
       }
     }
 
@@ -61,6 +63,26 @@
       width: 280px;
       height: 320px;
 
+    }
+    input{
+      @include transition-property(all);
+      @include transition-duration(700ms);
+      color: #ecfdff;
+      &:hover{
+
+        background: #bc0800;
+        opacity: 0.3;
+
+      }
+    }
+    textarea{
+      @include transition-property(all);
+      @include transition-duration(700ms);
+      color: #ecfdff;
+      &:hover{
+        background: #bc0800;
+        opacity: 0.3;
+      }
     }
   }
 }
@@ -76,7 +98,7 @@ form {
 
 }
 
-ul.contact_info {
+ul.contact-info {
   li {
     font-family: 'Lato', sans-serif;
     font-weight: 400;

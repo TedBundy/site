@@ -442,31 +442,31 @@ img.rsImg {
   position: absolute;
   cursor: pointer;
   background: url("../../images/rs-default1.png");
-  background-color: transparent;
+  opacity: 0.3;
   border-radius: 2px;
 }
 
-/* line 73, ../scss/lib/_rs-default.scss */
+/* line 72, ../scss/lib/_rs-default.scss */
 .rsDefault .rsArrowIcn:hover {
-  background-color: #f8acff;
+  opacity: 1;
 }
 
-/* line 77, ../scss/lib/_rs-default.scss */
+/* line 76, ../scss/lib/_rs-default.scss */
 .rsDefault.rsHor .rsArrowLeft .rsArrowIcn {
   background-position: -64px -32px;
 }
 
-/* line 78, ../scss/lib/_rs-default.scss */
+/* line 77, ../scss/lib/_rs-default.scss */
 .rsDefault.rsHor .rsArrowRight .rsArrowIcn {
   background-position: -64px -64px;
 }
 
-/* line 80, ../scss/lib/_rs-default.scss */
+/* line 79, ../scss/lib/_rs-default.scss */
 .rsDefault.rsVer .rsArrowLeft .rsArrowIcn {
   background-position: -96px -32px;
 }
 
-/* line 81, ../scss/lib/_rs-default.scss */
+/* line 80, ../scss/lib/_rs-default.scss */
 .rsDefault.rsVer .rsArrowRight .rsArrowIcn {
   background-position: -96px -64px;
 }
@@ -476,7 +476,7 @@ img.rsImg {
 *  2. Bullets
 *
 ****************/
-/* line 91, ../scss/lib/_rs-default.scss */
+/* line 90, ../scss/lib/_rs-default.scss */
 .rsDefault .rsBullets {
   position: absolute;
   z-index: 35;
@@ -492,7 +492,7 @@ img.rsImg {
   overflow: hidden;
 }
 
-/* line 107, ../scss/lib/_rs-default.scss */
+/* line 106, ../scss/lib/_rs-default.scss */
 .rsDefault .rsBullet {
   width: 8px;
   height: 8px;
@@ -502,7 +502,7 @@ img.rsImg {
   padding: 6px 5px 6px;
 }
 
-/* line 115, ../scss/lib/_rs-default.scss */
+/* line 114, ../scss/lib/_rs-default.scss */
 .rsDefault .rsBullet span {
   display: block;
   width: 8px;
@@ -512,7 +512,7 @@ img.rsImg {
   background: rgba(255, 255, 255, 0.5);
 }
 
-/* line 123, ../scss/lib/_rs-default.scss */
+/* line 122, ../scss/lib/_rs-default.scss */
 .rsDefault .rsBullet.rsNavSelected span {
   background-color: #ca4549;
 }
@@ -522,13 +522,13 @@ img.rsImg {
 *  3. Thumbnails
 *
 ****************/
-/* line 137, ../scss/lib/_rs-default.scss */
+/* line 136, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumbsHor {
   width: 100%;
   height: 72px;
 }
 
-/* line 141, ../scss/lib/_rs-default.scss */
+/* line 140, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumbsVer {
   width: 96px;
   height: 100%;
@@ -537,19 +537,19 @@ img.rsImg {
   right: 0;
 }
 
-/* line 148, ../scss/lib/_rs-default.scss */
+/* line 147, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsContainer {
   position: relative;
   height: 100%;
 }
 
-/* line 152, ../scss/lib/_rs-default.scss */
+/* line 151, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsContainer {
   position: relative;
   width: 100%;
 }
 
-/* line 156, ../scss/lib/_rs-default.scss */
+/* line 155, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumb {
   float: left;
   overflow: hidden;
@@ -557,30 +557,30 @@ img.rsImg {
   height: 72px;
 }
 
-/* line 162, ../scss/lib/_rs-default.scss */
+/* line 161, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumb img {
   width: 100%;
   height: 100%;
 }
 
-/* line 166, ../scss/lib/_rs-default.scss */
+/* line 165, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumb.rsNavSelected {
   background: #02874a;
 }
 
-/* line 169, ../scss/lib/_rs-default.scss */
+/* line 168, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumb.rsNavSelected img {
   opacity: 0.3;
   filter: alpha(opacity=30);
 }
 
-/* line 173, ../scss/lib/_rs-default.scss */
+/* line 172, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTmb {
   display: block;
 }
 
 /* Thumbnails with text */
-/* line 178, ../scss/lib/_rs-default.scss */
+/* line 177, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTmb h5 {
   font-size: 16px;
   margin: 0;
@@ -589,7 +589,7 @@ img.rsImg {
   color: #FFF;
 }
 
-/* line 185, ../scss/lib/_rs-default.scss */
+/* line 184, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTmb span {
   color: #DDD;
   margin: 0;
@@ -599,7 +599,7 @@ img.rsImg {
 }
 
 /* Thumbnails arrow icons */
-/* line 196, ../scss/lib/_rs-default.scss */
+/* line 195, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumbsArrow {
   height: 100%;
   width: 20px;
@@ -611,42 +611,42 @@ img.rsImg {
   background: rgba(0, 0, 0, 0.75);
 }
 
-/* line 206, ../scss/lib/_rs-default.scss */
+/* line 205, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumbsArrow:hover {
   background: rgba(0, 0, 0, 0.9);
 }
 
-/* line 209, ../scss/lib/_rs-default.scss */
+/* line 208, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrow {
   width: 100%;
   height: 20px;
 }
 
-/* line 213, ../scss/lib/_rs-default.scss */
+/* line 212, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrowLeft {
   top: 0;
   left: 0;
 }
 
-/* line 214, ../scss/lib/_rs-default.scss */
+/* line 213, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrowRight {
   bottom: 0;
   left: 0;
 }
 
-/* line 216, ../scss/lib/_rs-default.scss */
+/* line 215, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsArrowLeft {
   left: 0;
   top: 0;
 }
 
-/* line 217, ../scss/lib/_rs-default.scss */
+/* line 216, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsArrowRight {
   right: 0;
   top: 0;
 }
 
-/* line 219, ../scss/lib/_rs-default.scss */
+/* line 218, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumbsArrowIcn {
   width: 16px;
   height: 16px;
@@ -659,45 +659,45 @@ img.rsImg {
   background: url("../../images/rs-default.png");
 }
 
-/* line 231, ../scss/lib/_rs-default.scss */
+/* line 230, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn {
   background-position: -128px -32px;
 }
 
-/* line 232, ../scss/lib/_rs-default.scss */
+/* line 231, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn {
   background-position: -128px -48px;
 }
 
-/* line 234, ../scss/lib/_rs-default.scss */
+/* line 233, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn {
   background-position: -144px -32px;
 }
 
-/* line 235, ../scss/lib/_rs-default.scss */
+/* line 234, ../scss/lib/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn {
   background-position: -144px -48px;
 }
 
-/* line 237, ../scss/lib/_rs-default.scss */
+/* line 236, ../scss/lib/_rs-default.scss */
 .rsDefault .rsThumbsArrowDisabled {
   display: none !important;
 }
 
 /* Thumbnails resizing on smaller screens */
 @media screen and (min-width: 0px) and (max-width: 800px) {
-  /* line 241, ../scss/lib/_rs-default.scss */
+  /* line 240, ../scss/lib/_rs-default.scss */
   .rsDefault .rsThumb {
     width: 59px;
     height: 44px;
   }
 
-  /* line 245, ../scss/lib/_rs-default.scss */
+  /* line 244, ../scss/lib/_rs-default.scss */
   .rsDefault .rsThumbsHor {
     height: 44px;
   }
 
-  /* line 248, ../scss/lib/_rs-default.scss */
+  /* line 247, ../scss/lib/_rs-default.scss */
   .rsDefault .rsThumbsVer {
     width: 59px;
   }
@@ -707,7 +707,7 @@ img.rsImg {
 *  4. Tabs
 *
 ****************/
-/* line 262, ../scss/lib/_rs-default.scss */
+/* line 261, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTabs {
   width: 100%;
   height: auto;
@@ -718,7 +718,7 @@ img.rsImg {
   position: relative;
 }
 
-/* line 269, ../scss/lib/_rs-default.scss */
+/* line 268, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTab {
   display: inline-block;
   cursor: pointer;
@@ -741,7 +741,7 @@ img.rsImg {
   *zoom: 1;
 }
 
-/* line 293, ../scss/lib/_rs-default.scss */
+/* line 292, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTab:first-child {
   -webkit-border-top-left-radius: 4px;
   border-top-left-radius: 4px;
@@ -749,7 +749,7 @@ img.rsImg {
   border-bottom-left-radius: 4px;
 }
 
-/* line 299, ../scss/lib/_rs-default.scss */
+/* line 298, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTab:last-child {
   -webkit-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
@@ -758,14 +758,14 @@ img.rsImg {
   border-right: 1px solid #cfcfcf;
 }
 
-/* line 307, ../scss/lib/_rs-default.scss */
+/* line 306, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTab:active {
   border: 1px solid #D9D9DD;
   background-color: #f4f4f4;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset;
 }
 
-/* line 312, ../scss/lib/_rs-default.scss */
+/* line 311, ../scss/lib/_rs-default.scss */
 .rsDefault .rsTab.rsNavSelected {
   color: #FFF;
   border: 1px solid #999;
@@ -782,7 +782,7 @@ img.rsImg {
 *  5. Fullscreen button
 *
 ****************/
-/* line 333, ../scss/lib/_rs-default.scss */
+/* line 332, ../scss/lib/_rs-default.scss */
 .rsDefault .rsFullscreenBtn {
   right: 0;
   top: 0;
@@ -794,7 +794,7 @@ img.rsImg {
   cursor: pointer;
 }
 
-/* line 344, ../scss/lib/_rs-default.scss */
+/* line 343, ../scss/lib/_rs-default.scss */
 .rsDefault .rsFullscreenIcn {
   display: block;
   margin: 6px;
@@ -807,12 +807,12 @@ img.rsImg {
   border-radius: 2px;
 }
 
-/* line 357, ../scss/lib/_rs-default.scss */
+/* line 356, ../scss/lib/_rs-default.scss */
 .rsDefault .rsFullscreenIcn:hover {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 360, ../scss/lib/_rs-default.scss */
+/* line 359, ../scss/lib/_rs-default.scss */
 .rsDefault.rsFullscreen .rsFullscreenIcn {
   background-position: -32px 0;
 }
@@ -822,7 +822,7 @@ img.rsImg {
 *  6. Play/close video button
 *
 ****************/
-/* line 374, ../scss/lib/_rs-default.scss */
+/* line 373, ../scss/lib/_rs-default.scss */
 .rsDefault .rsPlayBtn {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
   width: 64px;
@@ -832,7 +832,7 @@ img.rsImg {
   cursor: pointer;
 }
 
-/* line 382, ../scss/lib/_rs-default.scss */
+/* line 381, ../scss/lib/_rs-default.scss */
 .rsDefault .rsPlayBtnIcon {
   width: 64px;
   display: block;
@@ -848,19 +848,19 @@ img.rsImg {
   *background-color: #000;
 }
 
-/* line 398, ../scss/lib/_rs-default.scss */
+/* line 397, ../scss/lib/_rs-default.scss */
 .rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 401, ../scss/lib/_rs-default.scss */
+/* line 400, ../scss/lib/_rs-default.scss */
 .rsDefault .rsBtnCenterer {
   position: absolute;
   left: 50%;
   top: 50%;
 }
 
-/* line 406, ../scss/lib/_rs-default.scss */
+/* line 405, ../scss/lib/_rs-default.scss */
 .rsDefault .rsCloseVideoBtn {
   right: 0;
   top: 0;
@@ -873,13 +873,13 @@ img.rsImg {
   -webkit-transform: translateZ(0);
 }
 
-/* line 418, ../scss/lib/_rs-default.scss */
+/* line 417, ../scss/lib/_rs-default.scss */
 .rsDefault .rsCloseVideoBtn.rsiOSBtn {
   top: -38px;
   right: -6px;
 }
 
-/* line 423, ../scss/lib/_rs-default.scss */
+/* line 422, ../scss/lib/_rs-default.scss */
 .rsDefault .rsCloseVideoIcn {
   margin: 6px;
   width: 32px;
@@ -890,7 +890,7 @@ img.rsImg {
   *background-color: #000;
 }
 
-/* line 432, ../scss/lib/_rs-default.scss */
+/* line 431, ../scss/lib/_rs-default.scss */
 .rsDefault .rsCloseVideoIcn:hover {
   background-color: rgba(0, 0, 0, 0.9);
 }
@@ -900,7 +900,7 @@ img.rsImg {
 *  7. Preloader
 *
 ****************/
-/* line 444, ../scss/lib/_rs-default.scss */
+/* line 443, ../scss/lib/_rs-default.scss */
 .rsDefault .rsPreloader {
   width: 20px;
   height: 20px;
@@ -916,7 +916,7 @@ img.rsImg {
 *  8. Global caption
 *
 ****************/
-/* line 463, ../scss/lib/_rs-default.scss */
+/* line 462, ../scss/lib/_rs-default.scss */
 .rsDefault .rsGCaption {
   position: absolute;
   float: none;
@@ -939,36 +939,26 @@ img.rsImg {
   content: '';
 }
 
-/* line 14, ../scss/_base.scss */
-body {
-  margin: 0 auto;
-}
-
 /* line 2, ../scss/components/_service.scss */
 .service {
-  display: block;
-  width: 1020px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 5%;
   background: #f2f2f2;
   font-family: 'Lato', sans-serif;
 }
-/* line 11, ../scss/components/_service.scss */
+/* line 8, ../scss/components/_service.scss */
 .service h2 {
   padding-bottom: 30px;
-  padding-top: 10px;
   font-size: 30px;
   font-weight: 700;
   color: #666d89;
 }
-/* line 19, ../scss/components/_service.scss */
+/* line 15, ../scss/components/_service.scss */
 .service h3 {
   font-size: 18px;
   font-weight: 700;
   color: #666d89;
 }
-/* line 25, ../scss/components/_service.scss */
+/* line 20, ../scss/components/_service.scss */
 .service p {
   padding-top: 3%;
   font-size: 12px;
@@ -976,44 +966,57 @@ body {
   font-weight: 400;
   line-height: 20px;
 }
-/* line 33, ../scss/components/_service.scss */
+/* line 28, ../scss/components/_service.scss */
 .service span {
   font-size: 18px;
   font-weight: 300;
   color: #666d89;
+  line-height: 30px;
 }
-/* line 39, ../scss/components/_service.scss */
+/* line 35, ../scss/components/_service.scss */
 .service li {
   float: left;
   width: 33%;
   height: 100%;
   padding-top: 50px;
 }
-/* line 45, ../scss/components/_service.scss */
+/* line 41, ../scss/components/_service.scss */
 .service img {
   float: left;
 }
 
-/* line 51, ../scss/components/_service.scss */
-section.ourservice {
+/* line 47, ../scss/components/_service.scss */
+section.our-service {
   background-color: #f2f2f2;
 }
 
-/* line 1, ../scss/components/_social_btn.scss */
-.social_btn {
-  padding-top: 10px;
-}
-/* line 3, ../scss/components/_social_btn.scss */
+/* line 2, ../scss/components/_social_btn.scss */
 .social_btn li {
+  width: 32px;
+  height: 32px;
   display: inline-block;
   border: 1px solid  #666d89;
-  border-radius: 50px;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1000ms;
+  -moz-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
 }
-/* line 7, ../scss/components/_social_btn.scss */
+/* line 13, ../scss/components/_social_btn.scss */
 .social_btn li:hover {
   border: 2px solid #666d89;
-  border-radius: 50px;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
   color: #8f9297;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
 }
 
 /* line 1, ../scss/components/_input.scss */
@@ -1046,63 +1049,78 @@ textarea {
   color: #e47376;
 }
 
+/* line 1, ../scss/components/_container.scss */
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
 /* line 1, ../scss/widgets/_header.scss */
 header {
   width: 100%;
   background: #303441;
 }
 /* line 5, ../scss/widgets/_header.scss */
-header nav {
-  width: 1020px;
-  height: 89px;
-  margin: 0 auto;
-}
-/* line 9, ../scss/widgets/_header.scss */
 header nav > a {
   font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 700;
   line-height: 93px;
 }
-/* line 16, ../scss/widgets/_header.scss */
+/* line 12, ../scss/widgets/_header.scss */
 header nav ul {
   float: right;
   font-family: 'Lato', sans-serif;
   font-size: 12px;
   font-weight: 700;
 }
-/* line 21, ../scss/widgets/_header.scss */
+/* line 17, ../scss/widgets/_header.scss */
 header nav ul li {
   display: inline-block;
   line-height: 89px;
 }
-/* line 27, ../scss/widgets/_header.scss */
-header nav a {
+/* line 21, ../scss/widgets/_header.scss */
+header nav ul a {
   color: white;
   text-decoration: none;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 700ms;
+  -moz-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  transition-duration: 700ms;
 }
-/* line 31, ../scss/widgets/_header.scss */
-header nav a:hover {
+/* line 27, ../scss/widgets/_header.scss */
+header nav ul a:hover {
   color: #eb5055;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
 }
-/* line 37, ../scss/widgets/_header.scss */
+/* line 34, ../scss/widgets/_header.scss */
 header nav span {
   color: #eb5055;
 }
-/* line 41, ../scss/widgets/_header.scss */
+/* line 38, ../scss/widgets/_header.scss */
 header nav li:after {
   content: '·';
   margin: 0 10px;
   color: #494e62;
 }
-/* line 47, ../scss/widgets/_header.scss */
+/* line 44, ../scss/widgets/_header.scss */
 header nav li:last-child:after {
   content: '';
+}
+/* line 49, ../scss/widgets/_header.scss */
+header a {
+  line-height: 93px;
+  text-decoration: none;
+  color: white;
 }
 
 /* line 1, ../scss/widgets/_footer.scss */
 footer {
-  width: 1020px;
   height: 75px;
   margin-left: auto;
   margin-right: auto;
@@ -1113,7 +1131,7 @@ footer {
   color: #666d89;
 }
 
-/* line 13, ../scss/widgets/_footer.scss */
+/* line 12, ../scss/widgets/_footer.scss */
 div.footer {
   width: 270px;
   height: 20px;
@@ -1122,67 +1140,53 @@ div.footer {
   text-align: left;
 }
 
-/* line 21, ../scss/widgets/_footer.scss */
+/* line 20, ../scss/widgets/_footer.scss */
 a {
   text-decoration: none;
   color: #666d89;
 }
 
-/* line 26, ../scss/widgets/_footer.scss */
+/* line 25, ../scss/widgets/_footer.scss */
 nav.footer {
   float: right;
   width: 150px;
   margin-top: -35px;
 }
 
-/* line 34, ../scss/widgets/_footer.scss */
-ul.footer li {
-  display: inline-block;
-  border: 1px solid #666d89;
-  border-radius: 50px;
-}
-/* line 38, ../scss/widgets/_footer.scss */
-ul.footer li:hover {
-  color: #8f9297;
-  border: 2px solid #666d89;
-  border-radius: 50px;
-}
-
-/* line 46, ../scss/widgets/_footer.scss */
+/* line 32, ../scss/widgets/_footer.scss */
 section.footer {
   background-color: #303441;
 }
 
 /* line 1, ../scss/layouts/_gallery.scss */
 .gallery {
-  width: 1020px;
   margin-left: auto;
   margin-right: auto;
   padding: 60px 35px 70px 35px;
   background: #303441;
   font-family: 'Lato', sans-serif;
 }
-/* line 9, ../scss/layouts/_gallery.scss */
+/* line 8, ../scss/layouts/_gallery.scss */
 .gallery h2 {
   padding-bottom: 35px;
   font-size: 30px;
   font-weight: 700;
   color: #666d89;
 }
-/* line 15, ../scss/layouts/_gallery.scss */
+/* line 14, ../scss/layouts/_gallery.scss */
 .gallery p {
   padding-bottom: 20px;
   font-size: 18px;
   font-weight: 400;
   color: #666d89;
 }
-/* line 23, ../scss/layouts/_gallery.scss */
-.gallery .menu li {
+/* line 22, ../scss/layouts/_gallery.scss */
+.gallery .navigation li {
   display: inline-block;
   margin: 5px;
 }
-/* line 27, ../scss/layouts/_gallery.scss */
-.gallery .menu li a {
+/* line 26, ../scss/layouts/_gallery.scss */
+.gallery .navigation li a {
   padding: 3px;
   border: 1px solid #666d89;
   border-radius: 6px;
@@ -1190,32 +1194,42 @@ section.footer {
   font-size: 12px;
   color: #767e9e;
   text-decoration: none;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 700ms;
+  -moz-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  transition-duration: 700ms;
 }
-/* line 36, ../scss/layouts/_gallery.scss */
-.gallery .menu li a:hover {
+/* line 37, ../scss/layouts/_gallery.scss */
+.gallery .navigation li a:hover {
   border: 1px solid white;
   color: white;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
 }
-/* line 45, ../scss/layouts/_gallery.scss */
+/* line 47, ../scss/layouts/_gallery.scss */
 .gallery div {
   padding: 7px;
 }
-/* line 48, ../scss/layouts/_gallery.scss */
+/* line 50, ../scss/layouts/_gallery.scss */
 .gallery figure {
   position: relative;
   display: inline-block;
   margin: 7px;
 }
-/* line 53, ../scss/layouts/_gallery.scss */
+/* line 55, ../scss/layouts/_gallery.scss */
 .gallery figure:hover figcaption {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 58, ../scss/layouts/_gallery.scss */
+/* line 60, ../scss/layouts/_gallery.scss */
 .gallery figure img {
   width: 100%;
 }
-/* line 62, ../scss/layouts/_gallery.scss */
+/* line 64, ../scss/layouts/_gallery.scss */
 .gallery figure figcaption {
   position: absolute;
   top: 0;
@@ -1235,7 +1249,7 @@ section.footer {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-/* line 74, ../scss/layouts/_gallery.scss */
+/* line 76, ../scss/layouts/_gallery.scss */
 .gallery figure p {
   padding: 40px;
   font-size: 15px;
@@ -1244,17 +1258,14 @@ section.footer {
   text-align: center;
 }
 
-/* line 85, ../scss/layouts/_gallery.scss */
+/* line 87, ../scss/layouts/_gallery.scss */
 section.portfolio {
   background: #303441;
 }
 
 /* line 1, ../scss/layouts/_about.scss */
 .about {
-  width: 1020px;
-  height: 632px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 700px;
   padding-top: 60px;
   padding-left: 30px;
   padding-bottom: 50px;
@@ -1262,31 +1273,37 @@ section.portfolio {
   font-family: Lato, sans-serif;
   color: #666d89;
 }
-/* line 13, ../scss/layouts/_about.scss */
+/* line 10, ../scss/layouts/_about.scss */
 .about h2 {
   margin-bottom: 40px;
   font-size: 30px;
   font-weight: 700;
 }
-/* line 19, ../scss/layouts/_about.scss */
-.about p.aboutus {
+/* line 16, ../scss/layouts/_about.scss */
+.about p.about-us {
   font-size: 18px;
   font-weight: 300;
 }
-/* line 23, ../scss/layouts/_about.scss */
+/* line 20, ../scss/layouts/_about.scss */
 .about p {
   font-size: 12px;
   font-weight: 300;
-  line-height: 20px;
+  line-height: 35px;
+  padding-bottom: 15px;
 }
-/* line 28, ../scss/layouts/_about.scss */
+/* line 26, ../scss/layouts/_about.scss */
 .about figure {
+  display: inline-block;
   float: left;
   width: 33%;
   padding-top: 50px;
 }
-/* line 35, ../scss/layouts/_about.scss */
-.about h3 {
+/* line 31, ../scss/layouts/_about.scss */
+.about figure figcaption {
+  width: 300px;
+}
+/* line 33, ../scss/layouts/_about.scss */
+.about figure figcaption h3 {
   margin-top: 25px;
   margin-bottom: 20px;
   font-size: 18px;
@@ -1301,27 +1318,26 @@ section.abouto {
 
 /* line 1, ../scss/layouts/_form.scss */
 .form {
-  width: 1020px;
   margin-left: auto;
   margin-right: auto;
   padding: 50px;
   background-color: #eb5055;
   font-family: Lato, sans-serif;
 }
-/* line 10, ../scss/layouts/_form.scss */
+/* line 9, ../scss/layouts/_form.scss */
 .form h2 {
   padding-bottom: 35px;
   font-weight: 700;
   font-size: 30px;
   color: #f0d8d9;
 }
-/* line 17, ../scss/layouts/_form.scss */
+/* line 16, ../scss/layouts/_form.scss */
 .form h3 {
   font-size: 18px;
   font-weight: 700;
   color: #f0d8d9;
 }
-/* line 22, ../scss/layouts/_form.scss */
+/* line 21, ../scss/layouts/_form.scss */
 .form p {
   padding-bottom: 40px;
   font-weight: 300;
@@ -1329,7 +1345,7 @@ section.abouto {
   color: #f0d8d9;
   line-height: 35px;
 }
-/* line 29, ../scss/layouts/_form.scss */
+/* line 28, ../scss/layouts/_form.scss */
 .form p.formus {
   padding: 15px;
   font-weight: 400;
@@ -1338,12 +1354,12 @@ section.abouto {
   line-height: 25px;
   text-align: justify;
 }
-/* line 39, ../scss/layouts/_form.scss */
+/* line 38, ../scss/layouts/_form.scss */
 .form form {
   float: left;
   width: 630px;
 }
-/* line 43, ../scss/layouts/_form.scss */
+/* line 42, ../scss/layouts/_form.scss */
 .form form a {
   float: right;
   padding: 5px;
@@ -1353,48 +1369,92 @@ section.abouto {
   font-weight: 700;
   color: #f0d8d9;
   text-decoration: none;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 700ms;
+  -moz-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  transition-duration: 700ms;
 }
-/* line 53, ../scss/layouts/_form.scss */
+/* line 54, ../scss/layouts/_form.scss */
 .form form a:hover {
   border: 2px solid #f8acff;
   border-radius: 7px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
 }
-/* line 59, ../scss/layouts/_form.scss */
+/* line 61, ../scss/layouts/_form.scss */
 .form form div.form {
   float: right;
   width: 280px;
   height: 320px;
 }
+/* line 67, ../scss/layouts/_form.scss */
+.form form input {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 700ms;
+  -moz-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  transition-duration: 700ms;
+  color: #ecfdff;
+}
+/* line 71, ../scss/layouts/_form.scss */
+.form form input:hover {
+  background: #bc0800;
+  opacity: 0.3;
+}
+/* line 78, ../scss/layouts/_form.scss */
+.form form textarea {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 700ms;
+  -moz-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  transition-duration: 700ms;
+  color: #ecfdff;
+}
+/* line 82, ../scss/layouts/_form.scss */
+.form form textarea:hover {
+  background: #bc0800;
+  opacity: 0.3;
+}
 
-/* line 68, ../scss/layouts/_form.scss */
+/* line 90, ../scss/layouts/_form.scss */
 section.forms {
   border-bottom: 5px solid #ea676b;
   background-color: #eb5055;
 }
 
-/* line 73, ../scss/layouts/_form.scss */
+/* line 95, ../scss/layouts/_form.scss */
 form {
   padding-right: 50px;
 }
 
-/* line 80, ../scss/layouts/_form.scss */
-ul.contact_info li {
+/* line 102, ../scss/layouts/_form.scss */
+ul.contact-info li {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #f0d8d9;
   font-size: 12px;
   float: left;
 }
-/* line 87, ../scss/layouts/_form.scss */
-ul.contact_info li a {
+/* line 109, ../scss/layouts/_form.scss */
+ul.contact-info li a {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #f0d8d9;
   font-size: 12px;
 }
-/* line 95, ../scss/layouts/_form.scss */
-ul.contact_info li img {
+/* line 117, ../scss/layouts/_form.scss */
+ul.contact-info li img {
   float: inherit;
   padding-right: 5px;
 }
@@ -1436,4 +1496,13 @@ ul.contact_info li img {
 /* line 5, ../scss/mixins/_placeborder.scss */
 .placeholder :-ms-input-placeholder {
   color: #e47376;
+}
+
+/* line 2, ../scss/mixins/_user-select.scss */
+.user-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  cursor: default;
 }

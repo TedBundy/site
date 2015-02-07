@@ -1,14 +1,22 @@
 .social_btn {
-  padding-top: 10px;
   li {
+    width: 32px;
+    height: 32px;
     display: inline-block;
     border: 1px solid  #666d89;
-    border-radius: 50px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius:100%;
+    @include transition-property(all);
+    @include transition-duration(1000ms);
+
     &:hover {
       border: 2px solid #666d89;
-      border-radius:50px;
+      border-radius: 100%;
+      -moz-border-radius: 100%;
+      -webkit-border-radius:100%;
       color: #8f9297;
-
+      @include opacity(0.5);
     }
 
   }

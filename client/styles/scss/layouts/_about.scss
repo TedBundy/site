@@ -1,8 +1,5 @@
 .about {
-  width: 1020px;
-  height: 632px;
-  margin-left: auto;
-  margin-right: auto;
+  height:700px;
   padding-top: 60px;
   padding-left: 30px;
   padding-bottom: 50px;
@@ -16,30 +13,33 @@
     font-weight: 700;
 
   }
-  p.aboutus {
+  p.about-us {
     font-size: 18px;
     font-weight: 300;
   }
   p {
     font-size: 12px;
     font-weight: 300;
-    line-height: 20px;
+    line-height: 35px;
+    padding-bottom: 15px;
   }
   figure {
+    display: inline-block;
     float: left;
     width: 33%;
     padding-top: 50px;
-  }
-  figcaption {
-  }
-  h3 {
-    margin-top: 25px;
-    margin-bottom: 20px;
-    font-size: 18px;
-    font-weight: 700;
+    figcaption {
+      width: 300px;
+      h3 {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 700;
 
-  }
+      }
 
+    }
+  }
 }
 
 section.abouto {
