@@ -1,0 +1,43 @@
+.about {
+  padding-top: 60px;
+  padding-bottom: 75px;
+  background: #f2f2f2;
+  font-family: Lato, sans-serif;
+  color: #666d89;
+  @include user-select(none);
+  h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+
+  }
+  p.about-us {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 35px;
+    padding-bottom: 15px;
+  }
+  figure {
+    display: inline-block;
+    width: 33%;
+    padding-top: 50px;
+    figcaption {
+      width: 300px;
+      h3 {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+section.abouto {
+  border-top: 5px solid #373b4a;
+  background: #f2f2f2;
+}

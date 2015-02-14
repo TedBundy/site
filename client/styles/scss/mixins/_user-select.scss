@@ -1,9 +1,6 @@
-
-.user-select{
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  user-select: none;
-  cursor: default;
-
+@mixin user-select($value) {
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -khtml-user-select: $value;
+  user-select: $value;
 }
